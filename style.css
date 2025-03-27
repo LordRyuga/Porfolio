@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto:wght@300;400;500&display=swap');
+*{
+    z-index: 1;
+}
+body
+{
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(135deg, #1e272e, #343a40);
+    
+    color: #f8f9fa;
+    background: url('https://images.unsplash.com/photo-1564865878688-9a244444042a?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D') no-repeat center center fixed; 
+    background-size: cover;
+    filter: brightness(100%); 
+}
+
+.techStackImgs{
+    width: 4em;
+    display: inline;
+    margin-left: 1em;
+    margin-bottom: 0.75em;
+}
+
+
+.someBar{
+    display: flex;
+    margin-left: 1rem;
+
+}
+.ProjectsDetailed{
+    background-color: #212529;
+    margin-top: 5em;
+    margin-right: 3em;
+    position: absolute;
+    left: -150rem;
+    border: 0.25em solid #17a2b8;
+    border-radius: 0.5em;
+    z-index: 10;
+    transition: left 1s ease-in-out;
+    padding: 1.5em;
+    font-size: medium;
+}
+.item{
+    font-family: 'Poppins', sans-serif;
+    background-color: #212529;
+    font-weight: 600;
+    text-align: center;
+    margin: 0em 0.5em 0em 0.5em;
+    padding: 0.5em;
+    border-style: solid;
+    border-width: 0.2em;
+    border-color: #17a2b8;
+    border-radius: 0.5em;
+}
+.item:hover{
+    background-color: #ffbe76;
+    border-color: #ff6b81;
+}
+#item1{
+    flex: 1 1 auto;
+}
+#item1:hover ~ .ProjectsDetailed{
+    position: absolute;
+    left: 2em;    
+}
+
+#item2{
+    flex: 1 1 auto;
+}
+
+#item3{
+    flex: 1 1 auto;
+}
+.Intro{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5em;
+    font-weight: 600;
+    text-align: center;
+}
+.highlight-red{
+    color: #ff6b81;
+}
+.highlight-blue{
+    color: #17a2b8;
+}
+
+
+.AboutMe{
+    position: absolute;
+    background-color: #2125297c;
+    top: 100%;
+    right: 1em;
+    left: 65%;
+    font-size: 1.5em;
+    font-weight: 350;
+    margin-left: 3rem;
+    border: 0.25em solid #17a2b8;
+    border-radius: 0.5em;
+    text-align: center;
+    padding: 0.5em;
+}
+
+.TechStacks{
+    position: absolute;
+    background-color: #e58e9b7d;
+    top: 150%;
+    right: 70%;
+    left: 1%;
+    font-size: 1.5em;
+    font-weight: 350;
+    margin-left: 3rem;
+    border: 0.25em solid #17a2b8;
+    border-radius: 0.5em;
+    padding: 0.5em;
+}
+
+.contactLinks{
+    position: absolute;
+    background-color: #e58e9b7d;
+    top: 400%;
+    right: 5%;
+    left: 70%;
+    font-size: 1.5em;
+    font-weight: 350;
+    margin-left: 3rem;
+    border: 0.25em solid #17a2b8;
+    border-radius: 0.5em;
+    padding: 0.5em;
+    text-align: center;
+}
+
+.gitLink{
+    color: #17a2b8;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+.gitLink:hover{
+    color: #138496
+}
+.gitLink:hover::after{
+    transform: scaleX(3);
+}
+
+#image-1{
+    width: 20em;
+}
