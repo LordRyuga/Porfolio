@@ -308,7 +308,7 @@ body
     left: 25%;
     top: 73%;
     opacity: 100%;
-    animation: letterType 1s infinite 0.9s linear;
+    animation: text-blink 1s infinite linear;
 }
 
 
@@ -354,7 +354,7 @@ body
         opacity: 100%;
     }
 }
-@keyframes blink {
+@keyframes text-blink {
     0%{
         opacity: 0%;
     }
