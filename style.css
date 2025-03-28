@@ -322,13 +322,31 @@ body
     0%{
         background: rgb(0, 0, 0);
     }
-    5%{
+    2%{
         background: rgb(255, 255, 255);
     }
-    7%{
+    5%{
         background: rgb(133, 133, 133);
     }
-    10%{
+    7%{
+        background: rgb(0, 0, 0);
+    }
+    9%{
+        background: rgb(255, 255, 255);
+    }
+    11%{
+        background: rgb(133, 133, 133);
+    }
+    13%{
+        background-color: black;
+    }
+    15%{
+        background: rgb(255, 255, 255);
+    }
+    17%{
+        background: rgb(133, 133, 133);
+    }
+    18%{
         background: white url('./assets/Screenshot\ 2025-03-28\ 045504.png');
         background-size: cover;
     }
